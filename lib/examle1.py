@@ -1,6 +1,6 @@
 import pandas
 import numpy
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
 column_names = ["Sample code number", "Clump Thickness", "Uniformity of of Cell Size",
     "Uniformity of Cell Shape", "Marginal Adhesion", "Single Epithelial Cell Size", 
     "Bare Nuclei", "Bland Chromatin", "Normal Nucleoli", "Mitoses", "Class"]
